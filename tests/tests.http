@@ -1,0 +1,10 @@
+### Create Orders in two steps
+# @name createTestEntityRecord
+POST http://localhost:4004/noauth/Test
+Authorization: Basic bob:fff
+Content-Type: application/json
+
+{
+    "name": "TestName 2",
+    "randomInt": 2
+}
